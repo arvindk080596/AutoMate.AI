@@ -7,11 +7,10 @@ A conversational Car Advisor Agent built using the [NVIDIA AgentIQ Toolkit](http
 ## 🔧 Features
 
 - **Car Buying Assistance**: Recommends cars based on user preferences (budget, type, etc.).
-- **Local Dealership Finder**: Suggests nearby dealers in Troy, USA.
+- **Local Dealership Finder**: Suggests nearby dealers.
 - **Financing Options**: Offers tailored financing advice based on selection.
 - **Car Selling Guide**: Recommends best online/offline platforms for selling.
 - **Conversational Flow**: Built using AgentIQ’s multi-turn dialogue management.
-- **Plug-and-Play**: No changes required to the existing `config.yaml`.
 
 ## 🧠 Agent Structure
 
@@ -21,7 +20,7 @@ The core logic is encapsulated in the `CarAdvisorAgent` class. All original clas
 
 1. Clone this repo.
 2. Ensure [AgentIQ Toolkit](https://developer.nvidia.com/ai-workflows/agentiq) is installed.
-3. Update your `config.yaml` to point to `CarAdvisorAgent` class if needed.
+3. Update your `config.yaml` to point to `CarAdvisorAgent` class.
 4. Run the agent using AgentIQ’s CLI or Python runtime.
 
 ## 📂 Project Structure
